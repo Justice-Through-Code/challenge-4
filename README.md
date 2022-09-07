@@ -1,6 +1,6 @@
 # Ripple Media Box Office Analysis
 
-## Challenge 3
+## Challenge 4
 
 Use lists and list methods to start processing data for your new startup, Ripple Media.
 
