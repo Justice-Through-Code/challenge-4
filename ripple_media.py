@@ -1,7 +1,14 @@
 
 def box_office_data():
     # NOTE: `movies_str` is a string
-    movies_str = "House on Haunted Hill,Cruel Intentions,10 Things I Hate About You,My Favorite Martian,8MM,Fight Club,The Matrix,Any Given Sunday,The Thin Red Line,A Bug's Life, For Love of the Game, Instinct, Mickey Blue Eyes, The Best Man, Bicentennial Man, The 13th Warrior, October Sky, Lake Placid, Random Hearts, Mighty Joe Young, Superstar, Mystery Men, The Talented Mr. Ripley, Dogma, The Out-of-Towners, The Other Sister, Baby Geniuses, The Story of Us, Blast from the Past, The Insider, Saving Private Ryan, Mysteries of Egypt, The Wood, Arlington Road, T-Rex: Back to the Cretaceous, The Iron Giant, Edtv, At First Sight, The Faculty, Summer of Sam, The Bachelor, Stir of Echoes, Anna and the King, Man on the Moon, Galaxy Quest, Enemy of the State, Waking Ned Devine, Doug's 1st Movie,An Ideal Husband,Everest"
+    movies_str = "House on Haunted Hill,Cruel Intentions,10 Things I Hate About You,My Favorite Martian,8MM,\
+        Fight Club,The Matrix,Any Given Sunday,The Thin Red Line,A Bug's Life,For Love of the Game,Instinct,\
+        Mickey Blue Eyes,The Best Man,Bicentennial Man,The 13th Warrior,October Sky,Lake Placid,Random Hearts,\
+        Mighty Joe Young,Superstar,Mystery Men,The Talented Mr. Ripley,Dogma,The Out-of-Towners,The Other Sister,\
+        Baby Geniuses,The Story of Us,Blast from the Past,The Insider,Saving Private Ryan,Mysteries of Egypt,\
+        The Wood,Arlington Road,T-Rex: Back to the Cretaceous,The Iron Giant,Edtv,At First Sight,The Faculty,\
+        Summer of Sam,The Bachelor,Stir of Echoes,Anna and the King,Man on the Moon,Galaxy Quest,Enemy of the State,\
+        Waking Ned Devine,Doug's 1st Movie,An Ideal Husband,Everest"
     # NOTE: `top_50_list` is a list
     top_50_list = [
         'Star Wars: Episode I - The Phantom Menace', 'The Sixth Sense', 'Austin Powers: The Spy Who Shagged Me',
@@ -17,6 +24,7 @@ def box_office_data():
     ]
 
     # 1.1 TODO: Convert the string `movies_str` into a list and assign it to a variable called `remaining_50_list`
+    # Note: make sure that the commas that separate the titles in the string don't stay in the titles in the list.
     # Print out the variable.
 
     # 1.2 TODO: Hmm. Looks like `remaining_50_list` contains the movie "The Matrix" which is also in the "top_50_list".
