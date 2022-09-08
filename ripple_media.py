@@ -24,22 +24,24 @@ def box_office_data():
     ]
 
     # 1.1 TODO: Convert the string `movies_str` into a list and assign it to a variable called `remaining_50_list`
-    # Note: make sure that the commas that separate the titles in the string don't stay in the titles in the list.
-    # Print out the variable.
+    # NOTE: make sure that the commas that separate the titles in the string don't stay in the titles in the list!
+    # Print out the `type` of your new variable.
 
     # 1.2 TODO: Hmm. Looks like `remaining_50_list` contains the movie "The Matrix" which is also in the "top_50_list".
-    # Let's remove this duplicate title from `remaining_50_list`, then print it out. 
-    # Note: Make sure to double check the list you are removing from!
+    # Let's remove this duplicate title from `remaining_50_list`. 
+    # Let's use our conditional logic to check if "The Matrix" is still in `remaining_50_list`
+    # Print `"The Matrix" in remaining_50_list`. It should print out `False`.
+    # NOTE: Make sure to double check the list you are removing from!
 
     # We're down to 49 movies in `remaining_50_list`.
     # 1.3 TODO: Let's add a movie to the list called "Anywhere But Here".
-    # This time, to check that the movie made it into the list, let's use conditional logic.
-    # Print `"Anywhere But Here" in remaining_50_list`. It should print out `True`.
+    # Let's use conditional logic again to check if the movie made it into the list (try it out yourself!).
 
     # 1.4 TODO: Let's make sure "remaining_50_list" has exactly 50 movie titles.
     # Print out the number of title-strings in the list (count it with code!)
 
-    # 1.5 TODO: Great! Let's join the two lists into one list called `top_100`.
+    # 1.5 TODO: Great! Let's combine the two lists into one list called `top_100`.
+    # NOTE: Which list should be first when you combine them? The top 50 titles, or the remaining 50?
     # Print out the number of title-strings in the list (count it with code!)
 
     # 1.6 TODO: Let's print the first movie in our `top_100`list.
