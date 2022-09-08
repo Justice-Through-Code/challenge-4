@@ -17,10 +17,7 @@ class TestRippleMediaLists(TestCase):
         box_office_data()
 
         self.assertEqual(
-            "<class 'list'>\nFalse\nTrue\n50\n100\nStar Wars: Episode I - The Phantom Menace\n\
-            ['Star Wars: Episode I - The Phantom Menace', 'The Sixth Sense', \
-            'Austin Powers: The Spy Who Shagged Me', 'Toy Story 2', 'The Matrix', 'Tarzan', 'Big Daddy', \
-            'The Mummy', 'Runaway Bride', 'The Blair Witch Project']\n",
+            "<class 'list'>\n50\nFalse\nTrue\n50\n100\nStar Wars: Episode I - The Phantom Menace\n['Star Wars: Episode I - The Phantom Menace', 'The Sixth Sense', 'Austin Powers: The Spy Who Shagged Me', 'Toy Story 2', 'The Matrix', 'Tarzan', 'Big Daddy', 'The Mummy', 'Runaway Bride', 'The Blair Witch Project']\n",
             mock_stdout.getvalue()
         )
 

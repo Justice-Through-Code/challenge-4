@@ -25,7 +25,7 @@ def box_office_data():
 
     # 1.1 TODO: Convert the string `movies_str` into a list and assign it to a variable called `remaining_50_list`
     # NOTE: make sure that the commas that separate the titles in the string don't stay in the titles in the list!
-    # Print out the `type` of your new variable.
+    # Print out the `type` of your new variable, then in a separate print statement, the number of items in it (should be 50).
 
     # 1.2 TODO: Hmm. Looks like `remaining_50_list` contains the movie "The Matrix" which is also in the "top_50_list".
     # Let's remove this duplicate title from `remaining_50_list`. 
@@ -34,8 +34,10 @@ def box_office_data():
     # NOTE: Make sure to double check the list you are removing from!
 
     # We're down to 49 movies in `remaining_50_list`.
-    # 1.3 TODO: Let's add a movie to the list called "Anywhere But Here".
-    # Let's use conditional logic again to check if the movie made it into the list (try it out yourself!).
+    # 1.3 TODO: Let's add a movie to the end of the list called "Anywhere But Here".
+    # Let's use conditional logic again to check if the last movie in the list is now "Anywhere But Here".
+    # Use 'indexing' and conditional logic to check.
+    # NOTE: if there are 50 movies in the list, what's the index of the final movie?
 
     # 1.4 TODO: Let's make sure "remaining_50_list" has exactly 50 movie titles.
     # Print out the number of title-strings in the list (count it with code!)
@@ -67,7 +69,7 @@ def create_employee_email_address():
     # (use a string method to split the string into a list) Print out the variable.
 
     # 2.3 TODO: We want to join the first name and last name with a '.' and save it in a variable called
-    # 'joined_names' (use a string method to join the list into a new string) Print out the variable.
+    # `joined_names` (use a string method to join the list into a new string) Print out the variable.
 
     # 2.4 TODO: We want to add '@ripplemedia.com' to the end of the string inside joined_names and
     # save it in a variable `email` (use an f-string to combine the username with the email domain)
